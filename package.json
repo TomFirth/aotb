@@ -1,0 +1,17 @@
+{
+  "name": "aotb",
+  "version": "1.0.0",
+  "description": "All of the Birthdays! - birthday reminders (not everyone uses Facebook)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "standard"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "1.14.12",
+    "standard": "10.0.3"
+  }
+}
