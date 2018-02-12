@@ -33,16 +33,24 @@ utilities.query = (query) => {
 }
 
 utilities.nextBirthday = () => {
-  const today = moment().format('MM-DD')
+  const today = moment().utc().format('MM-DD')
   const allMonthDays = utilities.sortByDayMonth()
   allMonthDays.sort()
+  const birthdaysToCome = []
+  allMonthDays.forEach((dm, key) => {
+    if (moment(dm).utc().format('MM-DD') > today) {
+      birthdaysToCome.push(dm)
+    }
+  })
+  birthdaysToCome.sort()
+  const nextBirthday = birthdaysToCome[0]
   let allPeople = []
   for (var i = 0; i < allMonthDays.length; i++) {
     birthdays.forEach(person => {
       const day = ('0' + person.dob.day).slice(-2)
       const month = ('0' + person.dob.month).slice(-2)
-      const personDate = moment(month + '-' + day).format('MM-DD')
-      if (month + '-' + personDate > today) {
+      const personDate = moment(month + '-' + day).utc().format('MM-DD')
+      if (personDate === nextBirthday) {
         allPeople.push(person)
       }
     })
