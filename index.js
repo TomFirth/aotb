@@ -1,7 +1,7 @@
 const https = require('http')
 const utilities = require('./libs/utilities')
 
-const port = process.argv.PORT || 13000
+const port = process.env.PORT || 13000
 
 https.createServer((req, res) => {
   res.setHeader('Content-Type', 'application/json')
