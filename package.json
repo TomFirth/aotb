@@ -9,7 +9,9 @@
     "test": "standard"
   },
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "moment": "2.20.1"
+  },
   "devDependencies": {
     "nodemon": "1.14.12",
     "standard": "10.0.3"
