@@ -10,10 +10,8 @@ This is a list of all the people I actually care about, infact I had a group of 
 
 ### How do I use it?
 
-`/` shows the next's birthday
+`/` shows the next birthday
 
-`/?f=<firstName>` searches for everyone with that first name
-
-`/?s=<surname>` searches for everyone with that family name (partners and children)
+`/?q=<query>` can search for firstName, surname (full or partial) or alias
 
 `/all` defaults to the entire list of people and birthdays
