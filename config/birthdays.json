@@ -23,6 +23,9 @@
   {
     "firstName": "richard",
     "surname": "albrow",
+    "alias": [
+      "rich"
+    ],
     "dob": {
       "day": 8,
       "month": 1,
@@ -32,6 +35,9 @@
   {
     "firstName": "russell",
     "surname": "lewis",
+    "alias": [
+      "russ"
+    ],
     "dob": {
       "day": 13,
       "month": 6,
@@ -41,6 +47,10 @@
   {
     "firstName": "samantha",
     "surname": "lewis",
+    "alias": [
+      "sam",
+      "sammy"
+    ],
     "dob": {
       "day": 25,
       "month": 2,
@@ -48,14 +58,14 @@
     }
   },
   {
-    "firstName": "jim",
+    "firstName": "james",
     "surname": "fullana",
     "alias": [
       "jimbo",
-      "james"
+      "jim"
     ],
     "dob": {
-      "day": 22,
+      "day": 19,
       "month": 6,
       "year": 1985
     }
@@ -81,7 +91,7 @@
       "harvino"
     ],
     "dob": {
-      "day": 28,
+      "day": 27,
       "month": 6,
       "year": 1985
     }
@@ -137,6 +147,9 @@
   {
     "firstName": "stuart",
     "surname": "paciej",
+    "alias": [
+      "piecheck"
+    ],
     "dob": {
       "day": 19,
       "month": 11,
@@ -146,6 +159,10 @@
   {
     "firstName": "simon",
     "surname": "torrens",
+    "alias": [
+      "si",
+      "beak"
+    ],
     "dob": {
       "day": 16,
       "month": 12,
@@ -185,6 +202,9 @@
   {
     "firstName": "natalie",
     "surname": "firth",
+    "alias": [
+      "nat"
+    ],
     "dob": {
       "day": 19,
       "month": 4,
