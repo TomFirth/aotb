@@ -71,20 +71,6 @@
     }
   },
   {
-    "firstName": "melinda",
-    "surname": "monaco",
-    "alias": [
-      "min",
-      "mind",
-      "mindy"
-    ],
-    "dob": {
-      "day": 23,
-      "month": 5,
-      "year": 1985
-    }
-  },
-  {
     "firstName": "luke",
     "surname": "harvey",
     "alias": [
